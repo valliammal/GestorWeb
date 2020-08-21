@@ -1,0 +1,10 @@
+@import "addons.scss";
+@import "gestorwebtemplatework.scss";
+
+/* This file prefixes all rules with the theme name to avoid causing conflicts with other themes. */
+/* The actual styles should be defined in gestorwebtemplatework.scss */
+.gestorwebtemplatework {
+  @include addons;
+  @include gestorwebtemplatework;
+
+}
